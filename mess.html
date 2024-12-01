@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alumni Connect</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Alumni Connect</h1>
+    <p>Stay connected with your fellow graduates!</p>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="signup.html">Sign up</a>
+    </div>
+  </header>
+
+  <!-- Main Content Section -->
+  <main>
+    <!-- Alumni Message Form -->
+    <section id="alumniMessageForm">
+      <h2>Sending a message to an alum?</h2>
+      <form id="messageForm">
+        <input type="text" name="name" placeholder="Your Name">
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button id="sendMessage">Send</button>
+      </form>
+    </section>
+
+    <!-- Alumni Profile Section -->
+    <section id="alumniProfile">
+      <h2>Connect with your alum?</h2>
+      <p>Click below to view the profiles of our alumni.</p>
+      <ul id="alumniList"></ul>
+    </section>
+
+    <!-- Search Bar -->
+    <section id="searchBar">
+      <input type="text" name="searchTerm" placeholder="Search for an alum...">
+      <button id="searchButton">Search</button>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2023 Alumni Connect. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

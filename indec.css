@@ -1,0 +1,163 @@
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #d1d8e0;
+            color: #000;
+        }
+        .navbar {
+            background-color: #01040a;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background-color 0.3s;
+        }
+        .navbar:hover {
+            background-color: #000308; 
+        }
+        .navbar .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .navbar .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+         .navbar .nav-links a:hover {
+            color: #ffcc00; 
+        } 
+        .hero {
+            color: rgb(12, 2, 2);
+            text-align: center;
+            padding: 100px 20px;
+            background-image: url('https://adamasuniversity.ac.in/wp-content/uploads/2021/06/Alumni-Network.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            position: center;
+            z-index: 1;
+        }
+        .hero .cta-button {
+            background-color: #00050e;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            position: relative;
+            z-index: 1;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .hero .cta-button:hover {
+            background-color: #010408; 
+            transform: scale(1.05); 
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2em;
+            color: #000;
+            margin-bottom: 20px;
+        }
+        .card {
+            display: inline-block;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 200px;
+            text-align: left;
+            vertical-align: top;
+            transition: transform 0.3s, box-shadow 0.3s; 
+        }
+        .card:hover {
+            transform: translateY(-5px); 
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+        }
+        .card img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .card-content {
+            padding: 10px;
+        }
+        .card-content p {
+            margin: 5px 0;
+            color: #333;
+        }
+        .card-content p span {
+            font-weight: bold;
+        }
+        .section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 40px;
+        }
+        .section div {
+            flex: 1;
+            margin: 0 20px;
+        }
+        .section div h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .section div p, .section div ul {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+        }
+        .section div ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section div ul li {
+            margin-bottom: 10px;
+        }
+        .footer {
+            border-top: 1px solid #000;
+            padding-top: 10px;
+            margin-top: 40px;
+            text-align: center;
+        }
+        .footer p {
+            margin: 5px 0;
+        }
+        .footer .social-icons a {
+            color: #6a1b9a;
+            margin: 0 10px;
+            font-size: 20px;
+            text-decoration: none;
+            transition: color 0.3s; 
+        }
+        .footer .social-icons a:hover {
+            color: #ffcc00;
+        }

@@ -1,0 +1,100 @@
+[
+    {
+        "name": "John Doe",
+        "company": "ABC Corp",
+        "department": "Engineering",
+        "description": "Experienced professional in software development and cloud computing.",
+        "image": "https://tse1.mm.bing.net/th?id=OIP.-_TpzL0S1Q-x9i-iLin62wAAAA&pid=Api&P=0&h=180"
+    },
+    {
+        "name": "Jane Smith",
+        "company": "XYZ Inc",
+        "department": "Marketing",
+        "description": "Expert in digital marketing with over 10 years of experience.",
+        "image": "https://imgmedia.lbb.in/media/2020/07/5f205155634ace601af1269d_1595953493979.jpg"
+    },
+    {
+        "name": "Chris Evans",
+        "company": "Tech Innovate",
+        "department": "Software Engineering",
+        "description": "Specialist in AI and Machine Learning.",
+        "image": "https://tse3.mm.bing.net/th?id=OIP.BrIw2jsHGAiKMR-a9OUPbwHaE8&pid=Api&P=0&h=180"
+    },
+    {
+        "name": "Emily Johnson",
+        "company": "Global Marketing",
+        "department": "Sales",
+        "description": "Accomplished sales executive with a global perspective.",
+        "image": "https://i0.wp.com/www.torontophotographerz.com/wp-content/uploads/2017/06/Linkedin-portraits-2.jpg?fit=800%2C1200&ssl=1"
+    },
+    {
+        "name": "Michael Brown",
+        "company": "Finance World",
+        "department": "Finance",
+        "description": "Experienced in financial analysis and investment banking.",
+        "image": "https://i.pinimg.com/originals/07/33/ba/0733ba760b29378474dea0fdbcb97107.png"
+    },
+    {
+        "name": "Sarah Wilson",
+        "company": "Creative Studios",
+        "department": "Design",
+        "description": "Creative designer specializing in digital media.",
+        "image": "https://www.tamiekasmithphotography.com/uploads/2/8/7/7/28776869/a-women-wearing-a-coat-for-linkedin-picture_orig.jpg"
+    },
+    {
+        "name": "David Clark",
+        "company": "Law Partners",
+        "department": "Law",
+        "description": "Attorney with expertise in corporate law and intellectual property.",
+        "image": "https://i.pinimg.com/originals/97/31/02/9731022f0be7c965e880505461643850.jpg"
+    },
+    {
+        "name": "Emma Martinez",
+        "company": "Health Solutions",
+        "department": "Healthcare",
+        "description": "Professional in healthcare management and administration.",
+        "image": "https://wemeancareer.com/wp-content/uploads/2020/04/Professional-LinkedIn-Headshot.png"
+    },
+    {
+        "name": "Daniel Thompson",
+        "company": "Green Energy",
+        "department": "Environmental Science",
+        "description": "Focused on sustainable energy solutions.",
+        "image": "https://i0.wp.com/www.torontophotographerz.com/wp-content/uploads/2017/06/Business-portrait-23.jpg?fit=800%2C1200&ssl=1"
+    },
+    {
+        "name": "Sophia Roberts",
+        "company": "Education First",
+        "department": "Education",
+        "description": "Passionate educator with a focus on curriculum development.",
+        "image": "https://img.freepik.com/premium-photo/attractive-indian-women-formal-wear_416902-2383.jpg"
+    },
+    {
+        "name": "James Anderson",
+        "company": "Public Sector",
+        "department": "Government",
+        "description": "Expert in public administration and policy.",
+        "image": "https://i.pinimg.com/originals/97/31/02/9731022f0be7c965e880505461643850.jpg"
+    },
+    {
+        "name": "Olivia Carter",
+        "company": "NextGen Solutions",
+        "department": "IT Support",
+        "description": "Experienced IT support specialist.",
+        "image": "https://www.brisbaneheadshots.com.au/templates/yootheme/cache/corporate-portraits-linkedin-profile-2eccc0eb.jpeg"
+    },
+    {
+        "name": "Henry Taylor",
+        "company": "Eco Life",
+        "department": "Environmental Engineering",
+        "description": "Engineer focused on sustainable solutions.",
+        "image": "https://i.pinimg.com/originals/f1/b4/f3/f1b4f35c609fd65e1012fe5c1e81ba9b.jpg"
+    },
+    {
+        "name": "Sophia Green",
+        "company": "Nexus Innovations",
+        "department": "Product Development",
+        "description": "Product developer for next-gen gadgets.",
+        "image": "https://www.befunky.com/images/wp/wp-2021-01-linkedin-profile-picture-focus-face.jpg?auto=avif,webp&format=jpg&width=944"
+    }
+]

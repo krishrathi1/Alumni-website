@@ -1,0 +1,56 @@
+{
+    "alumniAchievements": [
+        {
+            "name": "Kusa Raju",
+            "graduationYear": 2020,
+            "achievement": "Cracked Google"
+        },
+        {
+            "name": "Durga Prasad",
+            "graduationYear": 2020,
+            "achievement": "Cracked Microsoft"
+        },
+        {
+            "name": "Hemanth",
+            "graduationYear": 2019,
+            "achievement": "Cracked GSOC"
+        },
+        {
+            "name": "Pulapakura Emmi",
+            "graduationYear": 2018,
+            "achievement": "Cracked UPSC"
+        }
+    ],
+    "socialMediaLinks": [
+        {
+            "platform": "Instagram",
+            "link": "https://www.instagram.com/"
+        },
+        {
+            "platform": "LinkedIn",
+            "link": "https://www.linkedin.com/"
+        },
+        {
+            "platform": "Twitter",
+            "link": "https://twitter.com/"
+        },
+        {
+            "platform": "Discord",
+            "link": "https://discord.com/"
+        },
+        {
+            "platform": "Telegram",
+            "link": "https://t.me/"
+        }
+    ],
+    "contactInformation": [
+        {
+            "type": "Email",
+            "value": "AlumNexus@gmail.com"
+        },
+        {
+            "type": "Social Media Platforms",
+            "value": "Instagram, LinkedIn, Twitter, Discord, Telegram"
+        }
+    ]
+}

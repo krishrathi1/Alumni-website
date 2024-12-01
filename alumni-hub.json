@@ -1,0 +1,64 @@
+{
+    "alumni": [
+        {
+            "name": "John Doe",
+            "location": "New York, USA",
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        },
+        {
+            "name": "Jane Smith",
+            "location": "London, UK",
+            "latitude": 51.5074,
+            "longitude": -0.1278
+        },
+        {
+            "name": "Chris Evans",
+            "location": "Sydney, Australia",
+            "latitude": -33.8688,
+            "longitude": 151.2093
+        },
+        {
+            "name": "Emily Johnson",
+            "location": "Toronto, Canada",
+            "latitude": 43.6532,
+            "longitude": -79.3832
+        },
+        {
+            "name": "Michael Brown",
+            "location": "Dubai, UAE",
+            "latitude": 25.2048,
+            "longitude": 55.2708
+        },
+        {
+            "name": "Sarah Wilson",
+            "location": "Tokyo, Japan",
+            "latitude": 35.6895,
+            "longitude": 139.6917
+        },
+        {
+            "name": "David Clark",
+            "location": "Berlin, Germany",
+            "latitude": 52.5200,
+            "longitude": 13.4050
+        },
+        {
+            "name": "Emma Martinez",
+            "location": "Mexico City, Mexico",
+            "latitude": 19.4326,
+            "longitude": -99.1332
+        },
+        {
+            "name": "Daniel Thompson",
+            "location": "Cape Town, South Africa",
+            "latitude": -33.9249,
+            "longitude": 18.4241
+        },
+        {
+            "name": "Sophia Roberts",
+            "location": "Mumbai, India",
+            "latitude": 19.0760,
+            "longitude": 72.8777
+        }
+    ]
+}

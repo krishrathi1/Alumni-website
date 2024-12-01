@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alumni Directory</title>
+  <link rel="stylesheet" href="connect.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo">AlumNexus</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="alumni-hub.html">Alumni Hub</a>
+      <a href="connect.html">Connect</a>
+      <a href="event.html">Events</a>
+      <a href="donation.html">Donation</a>
+    </div>
+  </div>
+  
+  <!-- Alumni Cards -->
+  <div class="card" onclick="openModal('John Doe', 'ABC Corp', 'Engineering', 'Experienced professional in software development and cloud computing.')">
+    <img src="https://tse1.mm.bing.net/th?id=OIP.-_TpzL0S1Q-x9i-iLin62wAAAA&pid=Api&P=0&h=180" alt="John Doe">
+    <h3>John Doe</h3>
+    <p>ABC Corp - Engineering</p>
+  </div>
+
+  <div class="card" onclick="openModal('Jane Smith', 'XYZ Inc', 'Marketing', 'Expert in digital marketing with over 10 years of experience.')">
+    <img src="https://imgmedia.lbb.in/media/2020/07/5f205155634ace601af1269d_1595953493979.jpg" alt="Jane Smith">
+    <h3>Jane Smith</h3>
+    <p>XYZ Inc - Marketing</p>
+  </div>
+
+  <!-- Add more sample alumni cards -->
+  <div class="card" onclick="openModal('Chris Evans', 'Tech Innovate', 'Software Engineering', 'Specialist in AI and Machine Learning.')">
+    <img src="https://tse3.mm.bing.net/th?id=OIP.BrIw2jsHGAiKMR-a9OUPbwHaE8&pid=Api&P=0&h=180" alt="Chris Evans">
+    <h3>Chris Evans</h3>
+    <p>Tech Innovate - Software Engineering</p>
+  </div>
+  <div class="card" onclick="openModal('Emily Johnson', 'Global Marketing', 'Sales', 'Accomplished sales executive with a global perspective.')">
+    <img src="https://i0.wp.com/www.torontophotographerz.com/wp-content/uploads/2017/06/Linkedin-portraits-2.jpg?fit=800%2C1200&ssl=1" alt="Emily Johnson">
+    <h3>Emily Johnson</h3>
+    <p>Global Marketing - Sales</p>
+  </div>
+  <div class="card" onclick="openModal('Michael Brown', 'Finance World', 'Finance', 'Experienced in financial analysis and investment banking.')">
+    <img src="https://i.pinimg.com/originals/07/33/ba/0733ba760b29378474dea0fdbcb97107.png" alt="Michael Brown">
+    <h3>Michael Brown</h3>
+    <p>Finance World - Finance</p>
+  </div>
+  <div class="card" onclick="openModal('Sarah Wilson', 'Creative Studios', 'Design', 'Creative designer specializing in digital media.')">
+    <img src="https://www.tamiekasmithphotography.com/uploads/2/8/7/7/28776869/a-women-wearing-a-coat-for-linkedin-picture_orig.jpg" alt="Sarah Wilson">
+    <h3>Sarah Wilson</h3>
+    <p>Creative Studios - Design</p>
+  </div>
+  <div class="card" onclick="openModal('David Clark', 'Law Partners', 'Law', 'Attorney with expertise in corporate law and intellectual property.')">
+    <img src="https://i.pinimg.com/originals/97/31/02/9731022f0be7c965e880505461643850.jpg" alt="David Clark">
+    <h3>David Clark</h3>
+    <p>Law Partners - Law</p>
+  </div>
+  <div class="card" onclick="openModal('Emma Martinez', 'Health Solutions', 'Healthcare', 'Professional in healthcare management and administration.')">
+    <img src="https://wemeancareer.com/wp-content/uploads/2020/04/Professional-LinkedIn-Headshot.png" alt="Emma Martinez">
+    <h3>Emma Martinez</h3>
+    <p>Health Solutions - Healthcare</p>
+  </div>
+  <div class="card" onclick="openModal('Daniel Thompson', 'Green Energy', 'Environmental Science', 'Focused on sustainable energy solutions.')">
+    <img src="https://i0.wp.com/www.torontophotographerz.com/wp-content/uploads/2017/06/Business-portrait-23.jpg?fit=800%2C1200&ssl=1" alt="Daniel Thompson">
+    <h3>Daniel Thompson</h3>
+    <p>Green Energy - Environmental Science</p>
+  </div>
+  <div class="card" onclick="openModal('Sophia Roberts', 'Education First', 'Education', 'Passionate educator with a focus on curriculum development.')">
+    <img src="https://img.freepik.com/premium-photo/attractive-indian-women-formal-wear_416902-2383.jpg" alt="Sophia Roberts">
+    <h3>Sophia Roberts</h3>
+    <p>Education First - Education</p>
+  </div>
+  <div class="card" onclick="openModal('James Anderson', 'Public Sector', 'Government', 'Expert in public administration and policy.')">
+    <img src="https://i.pinimg.com/originals/97/31/02/9731022f0be7c965e880505461643850.jpg" alt="James Anderson">
+    <h3>James Anderson</h3>
+    <p>Public Sector - Government</p>
+  </div>
+
+  <!-- Additional 20 Alumni Cards -->
+  <div class="card" onclick="openModal('Olivia Carter', 'NextGen Solutions', 'IT Support', 'Experienced IT support specialist.')">
+    <img src="https://www.brisbaneheadshots.com.au/templates/yootheme/cache/corporate-portraits-linkedin-profile-2eccc0eb.jpeg" alt="Olivia Carter">
+    <h3>Oliv Carter</h3>
+    <p>NextGen Solutions - IT Support</p>
+  </div>
+  <div class="card" onclick="openModal('Henry Taylor', 'Eco Life', 'Environmental Engineering', 'Engineer focused on sustainable solutions.')">
+    <img src="https://i.pinimg.com/originals/f1/b4/f3/f1b4f35c609fd65e1012fe5c1e81ba9b.jpg" alt="Henry Taylor">
+    <h3>Henry Taylor</h3>
+    <p>Eco Life - Environmental Engineering</p>
+  </div>
+  <div class="card" onclick="openModal('Sophia Green', 'Nexus Innovations', 'Product Development', 'Product developer for next-gen gadgets.')">
+    <img src="https://www.befunky.com/images/wp/wp-2021-01-linkedin-profile-picture-focus-face.jpg?auto=avif,webp&format=jpg&width=944" alt="Sophia Green">
+    <h3>Sophia Green</h3>
+    <p>Nexus Innovations - Product Development</p>
+  </div>
+  
+  <!-- Modal Template -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2 id="modalName">John Doe</h2>
+      <p id="modalDetails">Company: ABC Corp<br>Department: Engineering<br>Description: Experienced professional in software development and cloud computing.</p>
+      <a href="mess.html" class="connect-button">Connect</a>
+    </div>
+  </div>
+  <div id="alumniModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <!-- Image of the alumni -->
+      <img id="modalImage" src="" alt="Alumni Image" style="width: 100%; height: auto; margin-bottom: 20px;">
+      <h2 id="modalName"></h2>
+      <p><strong>Company:</strong> <span id="modalCompany"></span></p>
+      <p><strong>Department:</strong> <span id="modalDepartment"></span></p>
+      <p><strong>Description:</strong> <span id="modalDescription"></span></p>
+    </div>
+  </div>
+  
+    <script src="connect.js"></script>
+  
+</body>
+</html>

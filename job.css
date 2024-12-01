@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.navbar {
+    background-color: #01040a;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+.navbar h1 {
+    margin: 0;
+}
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.form-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.form-container h2 {
+    margin-top: 0;
+}
+.form-container input, .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-container button {
+    padding: 10px 15px;
+    background-color: #01040a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-container button:hover {
+    background-color: #0a0d14;
+}
+.job-details {
+    margin-bottom: 20px;
+}

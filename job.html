@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="job.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <h1>Job Application Portal</h1>
+        <div class="header">
+            <a href="event.html">BACK</a>
+          </div>
+            
+    </div>
+
+    <!-- Container for Job Application -->
+    <div class="container">
+
+        <!-- Job Details Section -->
+        <div class="job-details">
+            <h2>Application for: Software Engineer</h2>
+            <p><strong>Department:</strong> IT</p>
+            <p><strong>Location:</strong> Remote</p>
+            <p><strong>Description:</strong> We are looking for a skilled Software Engineer with experience in Python and JavaScript.</p>
+        </div>
+
+        <!-- Job Application Form -->
+        <div class="form-container">
+            <h2>Apply for this Job</h2>
+            <form id="jobApplicationForm" onsubmit="submitApplication(event)">
+                <input type="text" id="fullName" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email Address" required>
+                <input type="tel" id="phone" placeholder="Phone Number" required>
+                <textarea id="coverLetter" placeholder="Cover Letter" rows="4" required></textarea>
+                <input type="file" id="resume" accept=".pdf,.doc,.docx" required>
+                <button type="submit">Submit Application</button>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="job.js" >
+      
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+  /* General styles */
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d1d8e0;
+    color: #000;
+}
+/* Navbar styles */
+.navbar {
+    background-color: #01040a;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+.navbar:hover {
+    background-color: #000308;
+}
+.navbar .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar .nav-links {
+    display: flex;
+    gap: 20px;
+}
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+.navbar .nav-links a:hover {
+    color: #ffcc00;
+}
+/* Map container */
+#map {
+    height: 600px;
+    width: 100%;
+    margin-top: 20px;
+}
+/* Circle label */
+.circle-label {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: 40px;
+}
+/* Alumni map section */
+.alumni-map-section {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.alumni-map-header {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+.alumni-map-subheader {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+}

@@ -1,0 +1,39 @@
+{
+    "jobTitle": "Software Engineer",
+    "department": "IT",
+    "location": "Remote",
+    "description": "We are looking for a skilled Software Engineer with experience in Python and JavaScript.",
+    "applicationFormFields": [
+        {
+            "type": "text",
+            "id": "fullName",
+            "placeholder": "Full Name",
+            "required": true
+        },
+        {
+            "type": "email",
+            "id": "email",
+            "placeholder": "Email Address",
+            "required": true
+        },
+        {
+            "type": "tel",
+            "id": "phone",
+            "placeholder": "Phone Number",
+            "required": true
+        },
+        {
+            "type": "textarea",
+            "id": "coverLetter",
+            "placeholder": "Cover Letter",
+            "rows": 4,
+            "required": true
+        },
+        {
+            "type": "file",
+            "id": "resume",
+            "accept": ".pdf,.doc,.docx",
+            "required": true
+        }
+    ]
+}

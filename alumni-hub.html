@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMU Alumni Hub - Global Alumni Map</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="alumni.css">
+    <style>
+        #map {
+            height: 600px;
+        }
+         .circle-label {
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #747d89;
+            text-align: center;
+            border-radius: 50%;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">AlumNexus</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="alumni-hub.html">Alumni Hub</a>
+            <a href="connect.html">Connect</a>
+            <a href="event.html">Events</a>
+            <a href="donation.html">Donation</a>
+        </div>
+    </div>
+    
+    <!-- Map Section -->
+    <div class="alumni-map-section">
+        <h1 class="alumni-map-header">Global Alumni Map</h1>
+        <p class="alumni-map-subheader">Explore where our alumni are located across the world!</p>
+        <div id="map"></div>
+    </div>
+
+    <script src="alumni-hub.js"></script>
+    
+</body>
+</html>
