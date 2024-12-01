@@ -94,19 +94,13 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ---
 
-## 🙌 Acknowledgments  
 
-Special thanks to:  
-- [Your College Name] for inspiration.  
-- The contributors and supporters of this project.  
 
 ---
 
-## 📬 Contact  
+  
 
-For queries or support, feel free to reach out:  
-- Email: [your-email@example.com]  
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)  
+
 
 ---
 
