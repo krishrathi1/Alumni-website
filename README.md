@@ -46,7 +46,7 @@ Ensure you have the following installed:
 ### Installation  
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/yourusername/alumni-website.git  
+   git clone https://github.com/krishrathi01/alumni-website.git  
    ```  
 2. Navigate to the project directory:  
    ```bash  
