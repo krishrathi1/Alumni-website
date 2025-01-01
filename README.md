@@ -2,7 +2,7 @@
 
 # Alumni Association Website 🌐  
 
-Welcome to the **Alumni Association Website**! This platform is designed to connect alumni, facilitate networking, support career development, and foster a vibrant alumni community for [Your College/Institution Name].
+Welcome to the **Alumni Association Website**! This platform is designed to connect alumni, facilitate networking, support career development, and foster a vibrant alumni community for [Krish rathi from bml munjal University ].
 
 ---
 
@@ -92,16 +92,3 @@ We welcome contributions! Here's how you can contribute:
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.  
 
----
-
-
-
----
-
-  
-
-
-
----
-
-Feel free to let me know if you'd like to include any additional information!
