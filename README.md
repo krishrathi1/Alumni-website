@@ -6,7 +6,7 @@ Welcome to the **Alumni Association Website**! This platform is designed to conn
 
 ---
 
-## 🚀 Features  
+## 🚀 Features 
 
 ### Alumni Engagement  
 - **Registration**: Alumni can sign up and create profiles.  
