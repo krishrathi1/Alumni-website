@@ -14,7 +14,7 @@ Welcome to the **Alumni Association Website**! This platform is designed to conn
 - **Networking Hub**: Share updates, insights, and collaborate.  
 
 ### Career Advancement  
-- **Job Portal**: Post and browse job opportunities.  
+- **Job Portal**: Post and browse job opportunities. 
 - **Mentorship Program**: Alumni can mentor current students or peers.  
 
 ### Giving Back  
